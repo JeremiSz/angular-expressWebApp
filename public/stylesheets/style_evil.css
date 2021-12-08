@@ -1,0 +1,112 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #9c73a3;
+  background-color: #513c5d;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+.sidebar {
+	background-color: #9c73a3;
+	border-color: #9c73a3;
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+}
+
+.banner {
+  margin-top: 4em;
+  border-bottom: 1px solid #469ea8;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+h1 small {
+  color: #aaa;
+}
+
+.card {
+  background-color: #9c73a3;
+  color: #513c5d;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.review-header {
+  background-color: #31727a;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.review {
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-bottom: 1em;
+}
+
+.badge-default, .btn-primary {
+  background-color: #ad1d28;
+  border-color: #911821;
+}
+
+h4 small {
+  font-size: 60%;
+  line-height: 200%;
+  color: #aaa;
+}
+
+.address {
+  margin-bottom: 0.5rem;
+}
+
+.facilities span.badge {
+  margin-right:2px;
+}
+
+legend {
+  font-family: sans-serif;
+}
+
+.nav-link{
+	text-align:right;
+	color: #513c5d;
+	font-size: 10vw;
+}
+
+img.expandable{
+	width: 100%;
+	height: auto;
+	margin: 5px 0 5px;
+}
+div.subsite{
+	height:100vh;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+
+@media screen and (min-width: 780px){
+	nav.long-stretch{
+		height:100vh;
+	}
+	.nav-link{
+		font-size:3vw;
+	}
+	.spacer_top{
+		padding-top: 25vh;
+	}
+	div.breathing_room{
+		padding-top: 2vh;
+	}
+	.spacer_room{
+		margin: 2px;
+	}
+} 
