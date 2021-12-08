@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title="Sssshhhh"
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+		link(rel='stylesheet', href='/stylesheets/style_evil.css')
+	body
+		nav.sidebar.col-12.col-sm-4.col-lg-2.long-stretch
+			ul.nav
+				li
+					img(src="/images/logoDark.svg", alt="our logo").img-fluid.col-3
+				li
+					block link
+		.container.subsite.col-12.col-sm-8.col-lg-10
+			block content
+		script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
+		script(src='/javascripts/bootstrap.min.js')

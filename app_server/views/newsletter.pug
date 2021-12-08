@@ -1,0 +1,11 @@
+extends navbar_evil
+
+block link
+	a.nav-link(href=`/`) Logout
+	
+block content
+	each news in newses
+		.card.col-12.col-sm-5.spacer_room
+			img(src=`${news.img}` alt=`${news.alt}`).expandable
+			.card-body
+				h2.card-title #{news.title}

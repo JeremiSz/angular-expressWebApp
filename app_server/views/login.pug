@@ -1,0 +1,22 @@
+extends navbar
+
+block link
+	a.nav-link(href=`/register`) Register
+
+block content
+	.col-12.col-sm-8
+		h1 Login
+		form
+			.spacer_top
+				.breathing_room
+					label(for="username") username
+					br
+					input(type="text", name="username")
+				br
+				.breathing_room
+					label(for="password") password
+					br
+					input(type="password", name="password")
+				.breathing_room
+					br
+					button(name="Login") Login
